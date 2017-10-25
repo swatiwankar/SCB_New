@@ -118,6 +118,11 @@ public class TestCase
 	{
 		Assert.assertTrue(true);
 	}
+	@Test
+	public void testCase_4()
+	{
+		Assert.assertTrue(true);
+	}
 	
 	@AfterMethod
 	public void Reporter(ITestResult result) throws IOException{
