@@ -77,7 +77,7 @@ public class TestCase
 		Assert.assertEquals(text_messge.getText(),"Thank you for your registration");
 		test.log(Status.INFO, "Step -3");
 	}
-//	@Test
+//	//@Test
 //	public void Test_case_2() throws FilloException, IOException
 //	{
 //		String TestCaseID = "TC_002";
