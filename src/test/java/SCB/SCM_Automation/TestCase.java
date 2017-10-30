@@ -107,22 +107,22 @@ public class TestCase
 //		Product product = new Product(driver, helperClass);
 //		product.addtocart(excelHashMapValues.get("qunty"));	
 //	}
-	@Test
+	/*@Test
 	public void testCase_2()
 	{
 		throw new SkipException("This test case is skipped");
-		//Assert.assertTrue(true);
-   }
+	*/	//Assert.assertTrue(true);
+  /* }*/
 	@Test
 	public void testCase_3()
 	{
 		Assert.assertTrue(true);
 	}
-	@Test
+	/*@Test
 	public void testCase_4()
 	{
 		Assert.assertTrue(true);
-	}
+	}*/
 	
 	@AfterMethod
 	public void Reporter(ITestResult result) throws IOException{
